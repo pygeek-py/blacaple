@@ -56,7 +56,7 @@ export const SERVICES = [
   {
     title: "Long-form editing",
     description:
-      "Polished storytelling for YouTube, podcasts, and interviews. Tight pacing, smooth transitions, no dead air.",
+      "Polished storytelling for YouTube, podcasts, and interviews. Tight pacing, smooth transitions, no dead air",
     tags: ["Story Structure", "B-Roll", "Color Grading"],
   },
   {
