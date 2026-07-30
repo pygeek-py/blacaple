@@ -13,7 +13,7 @@ export default function Services() {
         <SectionHeading
           eyebrow="Services"
           title="What we do best"
-          description="Four ways we help you get more out of the footage you already have."
+          description="Five ways we mine the emotional truth of your brand and weaponize it into stories that move markets."
           align="center"
           className="mx-auto"
         />
@@ -23,7 +23,7 @@ export default function Services() {
           initial="hidden"
           whileInView="show"
           viewport={revealViewport}
-          className="mt-14 grid gap-5 sm:grid-cols-2"
+          className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3"
         >
           {SERVICES.map((service, i) => (
             <motion.div
@@ -46,13 +46,14 @@ export default function Services() {
                   </span>
                 ))}
               </div>
+              <p className="mt-5 text-sm font-semibold text-ember-300">{service.price}</p>
             </motion.div>
           ))}
         </motion.div>
 
         <div className="mt-14 flex justify-center">
           <Button href="#contact" variant="primary">
-            Hire us
+            Start a project
           </Button>
         </div>
       </div>

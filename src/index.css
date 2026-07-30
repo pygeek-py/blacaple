@@ -1,19 +1,20 @@
+@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,600,700,800&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Cabinet Grotesk", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
-  --color-ink: #0a0a0c;
-  --color-surface: #141418;
-  --color-surface2: #1c1c22;
-  --color-bone: #f5f2ea;
-  --color-muted: #a19cae;
+  --color-ink: #000000;
+  --color-surface: #121212;
+  --color-surface2: #1a1a1a;
+  --color-bone: #ffffff;
+  --color-muted: #a3a3a3;
 
-  --color-ember-200: #ffe0c2;
-  --color-ember-300: #ffc65c;
-  --color-ember-400: #ff9a52;
-  --color-ember-500: #ff7a45;
-  --color-ember-600: #f2553a;
+  --color-ember-200: #ffd4c9;
+  --color-ember-300: #ff9d81;
+  --color-ember-400: #ff6847;
+  --color-ember-500: #eb3019;
+  --color-ember-600: #b8250f;
 }
 
 @layer base {

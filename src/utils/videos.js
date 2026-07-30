@@ -31,7 +31,7 @@ export const thumbnailVideos = [
   btsWa0020,
 ];
 
-export const serviceVideos = [wa0018, videoDew, wa0000, wa0002];
+export const serviceVideos = [wa0017, wa0018, videoDew, wa0000, wa0002];
 
 export const aboutVideos = [btsWa0022, btsWa0003];
 

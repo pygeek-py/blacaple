@@ -19,14 +19,14 @@ export default function About() {
             viewport={revealViewport}
           >
             <SectionHeading
-              eyebrow="Studio"
-              title="Editors obsessed with retention."
+              eyebrow="Who we are"
+              title="People don't remember ads. They remember how something made them feel."
             />
             <motion.p variants={fadeUp} className="mt-6 max-w-lg text-base text-muted">
-              Blacaple started as a two-person team cutting reels for local
-              creators. Today we're a small studio of editors, motion
-              designers, and strategists who care about one thing: keeping
-              people watching until the end.
+              Blacaple is a content studio based in Africa, built on a simple
+              belief. Our work is focused on that feeling — we help brands
+              speak clearly, look beautiful, and tell stories that stay in the
+              mind long after the screen goes dark.
             </motion.p>
 
             <motion.div variants={fadeUp} className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-2">

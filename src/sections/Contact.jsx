@@ -52,15 +52,15 @@ export default function Contact() {
             <motion.div variants={fadeUp}>
               <SectionHeading
                 eyebrow="Contact"
-                title="One cut at a time"
-                description="Don't let your content sit idle — tell us what you need and let's make it move."
+                title="Curiosity sticks."
+                description="Tell us about your brand, your founder story, and what you're building — let's engineer your next move."
               />
               <a
-                href="mailto:hello@blacaple.com"
+                href="mailto:blacaplestudio@gmail.com"
                 className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-bone/80 hover:text-ember-300"
               >
                 <Mail size={16} />
-                hello@blacaple.com
+                blacaplestudio@gmail.com
               </a>
             </motion.div>
 
@@ -99,10 +99,11 @@ export default function Contact() {
                   <option value="" disabled>
                     What service do you need
                   </option>
-                  <option>Short-form editing</option>
-                  <option>Long-form editing</option>
-                  <option>Motion graphics</option>
-                  <option>Thumbnail design</option>
+                  <option>Founder-Led Viral Campaign</option>
+                  <option>Pre-Launch Waitlist Campaign</option>
+                  <option>Cinematic Product Demo</option>
+                  <option>Podcast-to-Content Engine</option>
+                  <option>Brand Identity</option>
                   <option>Other</option>
                 </select>
 
@@ -116,10 +117,10 @@ export default function Contact() {
                   <option value="" disabled>
                     What's your budget
                   </option>
-                  <option>Under $500</option>
-                  <option>$500 – $1k</option>
-                  <option>$1k – $5k</option>
-                  <option>$5k+</option>
+                  <option>Under ₦5M</option>
+                  <option>₦5M – ₦15M</option>
+                  <option>₦15M – ₦25M</option>
+                  <option>₦25M+</option>
                 </select>
               </div>
 
@@ -159,7 +160,7 @@ export default function Contact() {
               {status === "error" && (
                 <p className="flex items-center justify-center gap-2 text-center text-sm font-medium text-red-400">
                   <AlertCircle size={16} />
-                  Something went wrong. Please email us directly at hello@blacaple.com.
+                  Something went wrong. Please email us directly at blacaplestudio@gmail.com.
                 </p>
               )}
 

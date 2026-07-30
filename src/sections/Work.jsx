@@ -13,8 +13,8 @@ export default function Work() {
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
             eyebrow="Portfolio"
-            title="Recent cuts"
-            description="A sample of edits shipped for creators and brands across short and long-form."
+            title="Selected work"
+            description="A sample of the stories we've engineered for founders and brands."
           />
           <Button href="#" variant="secondary" className="shrink-0">
             View full portfolio

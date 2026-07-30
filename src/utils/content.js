@@ -1,20 +1,14 @@
 export const NAV_LINKS = [
-  { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
+  { label: "Portfolio", href: "#work" },
   { label: "Services", href: "#services" },
   { label: "Pricing", href: "#pricing" },
-];
-
-export const SOCIALS = [
-  { label: "Instagram", href: "https://instagram.com" },
-  { label: "TikTok", href: "https://tiktok.com" },
-  { label: "YouTube", href: "https://youtube.com" },
+  { label: "About", href: "#about" },
 ];
 
 export const PROJECTS = [
-  { title: "Midnight Drop", category: "Brand Campaign", ratio: "3/4" },
+  { title: "Midnight Drop", category: "Founder Story", ratio: "3/4" },
   { title: "The Founder Tapes", category: "Podcast Series", ratio: "3/4" },
-  { title: "Grind Season", category: "Creator Vlog", ratio: "3/4" },
+  { title: "Grind Season", category: "Brand Campaign", ratio: "3/4" },
   { title: "Neon Runway", category: "Product Launch", ratio: "3/4" },
 ];
 
@@ -27,14 +21,14 @@ export const REELS = [
 
 export const THUMBNAILS = new Array(6).fill(null).map((_, i) => ({
   id: i,
-  title: `Thumbnail ${i + 1}`,
+  title: `Behind the scenes ${i + 1}`,
 }));
 
 export const ABOUT_STATS = [
-  { value: "9+", label: "Years Cutting" },
-  { value: "35M+", label: "Views Generated" },
-  { value: "540+", label: "Projects Delivered" },
-  { value: "300+", label: "Happy Clients" },
+  { value: "2025", label: "Studio Founded" },
+  { value: "5", label: "Core Services" },
+  { value: "3", label: "Spots Left This Month" },
+  { value: "12mo", label: "Retainer Packages" },
 ];
 
 export const TOOLS = [
@@ -48,142 +42,173 @@ export const TOOLS = [
 
 export const SERVICES = [
   {
-    title: "Short-form editing",
+    title: "Founder-Led Viral Campaigns",
     description:
-      "Fast, punchy edits built for Reels, TikTok, and Shorts — hooks that stop the scroll and pacing that keeps it moving.",
-    tags: ["Clean Cuts", "Captions", "Sound Design"],
+      "We turn your founder's story — the struggle, the breakthrough, the why-this-exists moment — into a multi-platform viral campaign that builds brand loyalty before you spend a dollar on ads.",
+    tags: ["Cinematic Videos", "Platform Strategy", "Emotion Engineering"],
+    price: "₦2M – ₦25M",
   },
   {
-    title: "Long-form editing",
+    title: "Pre-Launch Waitlist Campaigns",
     description:
-      "Polished storytelling for YouTube, podcasts, and interviews. Tight pacing, smooth transitions, no dead air",
-    tags: ["Story Structure", "B-Roll", "Color Grading"],
+      "We build anticipation before you have a product in-market — creating FOMO, social proof, and a launch-day audience that's already emotionally invested.",
+    tags: ["Landing Page", "Teaser Series", "Viral Mechanics"],
+    price: "₦3M – ₦20M",
   },
   {
-    title: "Motion graphics",
+    title: "Cinematic Product Demo Videos",
     description:
-      "Custom titles, transitions, and animated overlays that give every cut a little extra polish and personality.",
-    tags: ["Animated Titles", "Logo Stings", "Product Demos"],
+      "We don't shoot your product. We shoot the emotional transformation your product creates — demos that make people rewatch and share.",
+    tags: ["Hero Demo", "Social Cutdowns", "Color Grading"],
+    price: "₦2M – ₦18M",
+  },
+  {
+    title: "Podcast-to-Content Engine",
+    description:
+      "We produce a broadcast-quality podcast series in our studio, then atomize every episode into 30+ pieces of SEO-optimized, social-native content.",
+    tags: ["Studio Sessions", "Content Atomization", "SEO Articles"],
+    price: "₦3M – ₦25M",
+  },
+  {
+    title: "Brand Identity from Founder Wound",
+    description:
+      "We excavate the emotional truth of why your company exists — then build a complete brand identity system that makes every touchpoint feel intentional.",
+    tags: ["Brand Narrative", "Visual Identity", "Brand Manifesto"],
+    price: "₦3M – ₦30M",
   },
 ];
 
 export const PROCESS_STEPS = [
   {
     step: "01",
-    title: "Discovery",
-    description: "We map out your goals, audience, and the style that fits your brand.",
+    title: "Discovery call",
+    description: "We learn your story, your market, and the wound behind your brand.",
   },
   {
     step: "02",
-    title: "Upload",
-    description: "You drop your footage, brand assets, and any references into our shared folder.",
+    title: "Strategy & scripting",
+    description: "We map the emotional architecture and platform strategy for your campaign.",
   },
   {
     step: "03",
-    title: "Edit",
-    description: "We cut a first pass that's aligned with your vision from day one.",
+    title: "Studio production",
+    description: "Full crew shoot — cinematography, lighting, sound design, on location or in-studio.",
   },
   {
     step: "04",
-    title: "Review",
-    description: "You leave timestamped notes and we shape the edit around your feedback.",
+    title: "Edit & review",
+    description: "We cut a first pass, you leave notes, we refine until it moves the way it should.",
   },
   {
     step: "05",
-    title: "Delivery",
-    description: "Final files land in your inbox, formatted and ready to post everywhere.",
+    title: "Launch & distribution",
+    description: "We deploy across platforms with a distribution strategy built for virality.",
   },
 ];
 
 export const PROOF_STATS = {
-  delivered: "128",
-  turnaround: "3–5 business days",
-  clients: "30+",
+  spotsLeft: "3",
+  spotsCap: "Only 5 spots are opened a month, so every client gets our full attention.",
 };
 
 export const TESTIMONIALS = [
   {
-    name: "Sasha Reyes",
-    role: "Content Manager",
+    name: "Tomiwa Alade",
+    role: "Founder & CEO",
     quote:
-      "We needed a fast turnaround on a tight deadline — it landed early and the quality was better than what we were getting in-house.",
+      "They didn't ask what we wanted to post. They asked what actually happened to us. The campaign that came out of that hit different — and it showed in the numbers.",
   },
   {
-    name: "Devon Marsh",
-    role: "Personal Brand Strategist",
+    name: "Chiamaka Obi",
+    role: "Co-Founder",
     quote:
-      "They took raw, unscripted footage and shaped it into something we were genuinely proud to post. Communication the whole way was effortless.",
+      "Every other studio pitched us a shot list. Blacaple pitched us a story. Our pre-launch waitlist crossed 10k before we'd spent a dollar on ads.",
   },
   {
-    name: "Priya Nair",
-    role: "YouTuber",
+    name: "Daniel Osei",
+    role: "Head of Growth",
     quote:
-      "Hours of interview footage with no clear story in it, and what came back was tight, emotional, and exactly on-brand. Now our default editor.",
+      "Our demo video looked like it cost 10x what we paid. Investors noticed before we even brought it up.",
   },
 ];
 
 export const FAQS = [
   {
-    question: "How fast can you turn around a project?",
+    question: "How fast can we start a project?",
     answer:
-      "Most short-form edits ship in 3–5 business days, and long-form projects in 5–7. Rush delivery is available for an added fee if you're on a deadline.",
+      "Most engagements kick off with a discovery call within a week of reaching out, with production starting shortly after scoping is locked in.",
   },
   {
-    question: "What do you need from me to get started?",
+    question: "Do you require a retainer?",
     answer:
-      "Raw footage (or a link to it), any brand guidelines or references, and a short brief on tone and goals. We'll handle the rest.",
+      "Most of our packages are structured as 12-month retainers so we can build a real content moat with you, not a one-off video. Project-based scopes are available for select services.",
   },
   {
-    question: "How many revisions are included?",
+    question: "What if I don't know which package fits me?",
     answer:
-      "Short-form packages include two rounds of revisions, long-form includes three. Additional rounds can be added if needed.",
+      "That's what the discovery call is for. Tell us where your brand is and where you're trying to go, and we'll scope a package — or a custom mix — around that.",
   },
   {
-    question: "Do you work with ongoing/retainer clients?",
+    question: "Do you only work with startups based in Africa?",
     answer:
-      "Yes — most of our roster is on a recurring plan. We'll build a cadence around how much content you're posting each month.",
+      "No — our studio is based in Africa, but we work with founders and brands globally. Production can happen in-studio or on location.",
   },
   {
-    question: "What formats and platforms do you edit for?",
+    question: "What happens after I reach out?",
     answer:
-      "Reels, TikTok, Shorts, YouTube, podcasts, and paid ad creative. We deliver in whatever aspect ratio and format your platform needs.",
+      "We'll set up a discovery call, walk through your story and goals, and follow up with a scoped proposal — typically within 24 hours of that call.",
   },
 ];
 
-export const PRICING_PLANS = [
+export const PRICING_TIERS = [
   {
-    name: "Short-form video",
-    price: "$45",
-    unit: "/video",
-    description: "Reels, TikToks, and YouTube Shorts.",
+    name: "Tier 1 — Presence",
+    tagline: "For candidates building local awareness and grassroots credibility.",
+    pricing: { monthly: "₦800,000", quarterly: "₦1,440,000", annual: "₦4,320,000" },
     features: [
-      "Up to 90 seconds",
-      "Quick cuts, captions, transitions",
-      "Licensed background music",
-      "2 rounds of revisions",
-      "3–5 day turnaround",
+      "Candidate narrative discovery & story extraction",
+      "1 campaign commercial per month (short-form, digital-ready)",
+      "16 social media content videos per month",
+      "Social media management: Instagram, Facebook, TikTok (posting, community replies, growth strategy)",
+      "Monthly performance report",
+      "Minimum 200,000 audience touchpoints per month",
     ],
   },
   {
-    name: "Long-form video",
-    price: "$120",
-    unit: "/video",
-    description: "YouTube videos, interviews, podcasts, webinars.",
+    name: "Tier 2 — Momentum",
+    tagline: "For politicians scaling influence across multiple constituencies or platforms.",
+    pricing: { monthly: "₦1,500,000", quarterly: "₦2,700,000", annual: "₦8,100,000" },
     features: [
-      "Up to 12 minutes",
-      "Sound mixing + clean cuts",
-      "Branded intro/outro",
-      "3 rounds of revisions",
-      "5–7 day turnaround",
-      "Popular",
+      "Everything in Tier 1, plus:",
+      "2 campaign commercials per month (short + long-form)",
+      "24 social media content videos per month",
+      "Full platform management: Instagram, Facebook, TikTok, Twitter/X, YouTube",
+      "1 rally or event coverage per month (video capture + content production)",
+      "Reputation monitoring & crisis communication support",
+      "A/B content testing & audience targeting guidance",
+      "Minimum 600,000 audience touchpoints per month",
     ],
-    featured: true,
+  },
+  {
+    name: "Tier 3 — Legacy",
+    tagline: "For major political figures and parties running large-scale, high-stakes campaigns.",
+    pricing: { monthly: "₦3,000,000", quarterly: "₦5,400,000", annual: "₦16,200,000" },
+    features: [
+      "Everything in Tier 2, plus:",
+      "1 full-length political documentary film (8–15 minutes) — Netflix-grade production",
+      "2 branded podcast series positioning you as a thought leader in your field",
+      "Deep audience research & voter psychology analysis",
+      "Weekly strategy sessions with Blacaple's creative and data team",
+      "Priority response for crisis communication (within 4 hours)",
+      "Unlimited event coverage within campaign period",
+      "Minimum 2,000,000 audience touchpoints per month",
+    ],
   },
 ];
 
 export const FOOTER_LINKS = [
-  { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
+  { label: "Portfolio", href: "#work" },
   { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
