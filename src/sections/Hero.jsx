@@ -11,9 +11,6 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden pb-20 pt-36 sm:pt-44">
-      <div className="pointer-events-none absolute inset-x-0 top-[-10%] h-[520px] bg-[radial-gradient(ellipse_at_top,rgba(235,48,25,0.18),transparent_65%)]" />
-      <div className="pointer-events-none absolute left-1/2 top-40 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-ember-500/10 blur-[120px]" />
-
       <div className="mx-auto grid max-w-6xl gap-14 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <motion.div
           variants={staggerContainer(0.12)}
