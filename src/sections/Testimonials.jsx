@@ -33,7 +33,7 @@ export default function Testimonials() {
                 "{t.quote}"
               </p>
               <div className="mt-6 flex items-center gap-3 border-t border-bone/10 pt-5">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-ember-500/40 to-ember-300/20 text-sm font-semibold text-bone">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-ember-500/40 text-sm font-semibold text-bone">
                   {t.name.charAt(0)}
                 </div>
                 <div>

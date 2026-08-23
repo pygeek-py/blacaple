@@ -15,7 +15,7 @@ export default function Button({
 
   const variants = {
     primary:
-      "bg-gradient-to-r from-ember-500 to-ember-300 text-ink shadow-[0_8px_30px_-8px_rgba(255,122,69,0.55)] hover:shadow-[0_12px_40px_-8px_rgba(255,122,69,0.75)] hover:-translate-y-0.5",
+      "bg-ember-500 text-ink shadow-[0_8px_30px_-8px_rgba(255,122,69,0.55)] hover:shadow-[0_12px_40px_-8px_rgba(255,122,69,0.75)] hover:-translate-y-0.5",
     secondary:
       "border border-bone/15 bg-bone/[0.03] text-bone hover:bg-bone/[0.08] hover:-translate-y-0.5",
     ghost: "text-bone hover:text-ember-300",

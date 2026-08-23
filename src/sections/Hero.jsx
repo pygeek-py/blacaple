@@ -31,7 +31,7 @@ export default function Hero() {
             className="mt-6 max-w-xl text-4xl font-semibold leading-[1.05] tracking-tight text-bone sm:text-5xl md:text-6xl"
           >
             We don't make ads.{" "}
-            <span className="bg-gradient-to-r from-ember-400 to-ember-200 bg-clip-text text-transparent">
+            <span className="text-ember-500">
               We engineer emotions
             </span>{" "}
             that move markets.
@@ -41,7 +41,7 @@ export default function Hero() {
             variants={fadeUp}
             className="mt-6 max-w-md text-base text-muted sm:text-lg"
           >
-            Blacaple helps brands become unforgettable through story-driven
+            Become unforgettable through story-driven
             commercials, content, and campaigns that turn attention into
             customers.
           </motion.p>
