@@ -16,6 +16,9 @@ import btsWa0019 from "../assets/BTS/VID-20260730-WA0019.mp4";
 import btsWa0020 from "../assets/BTS/VID-20260730-WA0020.mp4";
 import btsWa0022 from "../assets/BTS/VID-20260730-WA0022.mp4";
 
+import founderVideo from "../assets/IMG_2115.mp4";
+import eventVideo from "../assets/IMG_2229.mp4";
+
 export const heroVideo = videoDew;
 
 export const portfolioVideos = [wa0000, wa0002, wa0017, wa0018];
@@ -31,8 +34,36 @@ export const thumbnailVideos = [
   btsWa0020,
 ];
 
-export const serviceVideos = [wa0017, wa0018, videoDew, wa0000, wa0002];
+export const serviceVideos = [
+  founderVideo,
+  wa0018,
+  videoDew,
+  wa0000,
+  wa0002,
+  eventVideo,
+];
 
 export const aboutVideos = [btsWa0022, btsWa0003];
 
 export const proofVideo = btsWa0004;
+
+export const PORTFOLIO_LIBRARY = [
+  { title: "Launch commercial", category: "Founder Story", src: wa0000, ratio: "aspect-[4/5]" },
+  { title: "Brand storytelling", category: "Brand Content", src: wa0002, ratio: "aspect-[4/5]" },
+  { title: "Podcast episode", category: "Podcast Series", src: wa0017, ratio: "aspect-[4/5]" },
+  { title: "Product launch film", category: "Product Launch", src: wa0018, ratio: "aspect-[4/5]" },
+  { title: "Founder-led campaign", category: "Founder-Led Viral Campaign", src: founderVideo, ratio: "aspect-[9/16]" },
+  { title: "Event coverage", category: "Event Storytelling", src: eventVideo, ratio: "aspect-[9/16]" },
+  { title: "Reel cut 01", category: "Vertical Reel", src: btsWa0003, ratio: "aspect-[9/16]" },
+  { title: "Reel cut 02", category: "Vertical Reel", src: btsWa0004, ratio: "aspect-[9/16]" },
+  { title: "Reel cut 03", category: "Vertical Reel", src: btsWa0005, ratio: "aspect-[9/16]" },
+  { title: "Reel cut 04", category: "Vertical Reel", src: btsWa0006, ratio: "aspect-[9/16]" },
+  { title: "Behind the scenes 01", category: "Behind The Scenes", src: btsWa0007, ratio: "aspect-[4/3]" },
+  { title: "Behind the scenes 02", category: "Behind The Scenes", src: btsWa0008, ratio: "aspect-[4/3]" },
+  { title: "Behind the scenes 03", category: "Behind The Scenes", src: btsWa0009, ratio: "aspect-[4/3]" },
+  { title: "Behind the scenes 04", category: "Behind The Scenes", src: btsWa0016, ratio: "aspect-[4/3]" },
+  { title: "Behind the scenes 05", category: "Behind The Scenes", src: btsWa0019, ratio: "aspect-[4/3]" },
+  { title: "Behind the scenes 06", category: "Behind The Scenes", src: btsWa0020, ratio: "aspect-[4/3]" },
+  { title: "Studio moment", category: "Behind The Scenes", src: btsWa0022, ratio: "aspect-[4/3]" },
+  { title: "Hero showreel", category: "Studio Reel", src: videoDew, ratio: "aspect-[4/5]" },
+];

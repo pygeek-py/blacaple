@@ -27,7 +27,7 @@ export default function Navbar() {
     >
       <div
         className={cn(
-          "mx-auto flex max-w-6xl items-center justify-between rounded-full px-5 py-3 transition-all duration-300 sm:px-6",
+          "mx-auto flex max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] items-center justify-between rounded-full px-5 py-3 transition-all duration-300 sm:px-6",
           scrolled
             ? "border border-bone/10 bg-ink/70 shadow-[0_8px_30px_-12px_rgba(0,0,0,0.6)] backdrop-blur-xl"
             : "border border-transparent bg-transparent"
@@ -48,7 +48,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <Button href="#contact" variant="primary" className="px-5 py-2.5 text-xs">
+          <Button href="/#contact" variant="primary" className="px-5 py-2.5 text-xs">
             Start a project
           </Button>
         </div>
@@ -83,7 +83,7 @@ export default function Navbar() {
               </a>
             ))}
             <Button
-              href="#contact"
+              href="/#contact"
               variant="primary"
               className="mt-2 justify-center"
               onClick={() => setMobileOpen(false)}

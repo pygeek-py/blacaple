@@ -6,7 +6,7 @@ import { PROCESS_STEPS } from "../utils/content";
 export default function Process() {
   return (
     <section className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <SectionHeading
           eyebrow="Workflow"
           title="How a project moves"

@@ -9,7 +9,7 @@ import { serviceVideos } from "../utils/videos";
 export default function Services() {
   return (
     <section id="services" className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <SectionHeading
           eyebrow="Services"
           title="What we do best"
@@ -31,7 +31,11 @@ export default function Services() {
               variants={fadeUp}
               className="group flex flex-col overflow-hidden rounded-[28px] border border-bone/10 bg-bone/[0.02] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-ember-400/30 hover:bg-bone/[0.04] sm:p-7"
             >
-              <VideoTile src={serviceVideos[i]} ratio="aspect-video" />
+              <VideoTile
+                src={serviceVideos[i]}
+                ratio="aspect-video"
+                objectPosition="object-center"
+              />
               <h3 className="mt-6 text-xl font-semibold text-bone sm:text-2xl">
                 {service.title}
               </h3>

@@ -1,15 +1,15 @@
 export const NAV_LINKS = [
-  { label: "Portfolio", href: "#work" },
-  { label: "Services", href: "#services" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "About", href: "#about" },
+  { label: "Portfolio", href: "/#work" },
+  { label: "Services", href: "/#services" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "About", href: "/#about" },
 ];
 
 export const PROJECTS = [
-  { title: "Midnight Drop", category: "Founder Story", ratio: "3/4" },
-  { title: "The Founder Tapes", category: "Podcast Series", ratio: "3/4" },
-  { title: "Grind Season", category: "Brand Campaign", ratio: "3/4" },
-  { title: "Neon Runway", category: "Product Launch", ratio: "3/4" },
+  { title: "Launch commercial", category: "Founder Story", ratio: "3/4" },
+  { title: "Brand storytelling", category: "brand content", ratio: "3/4" },
+  { title: "Podcast episode", category: "Podcast series", ratio: "3/4" },
+  { title: "Launch commercial", category: "Product Launch", ratio: "3/4" },
 ];
 
 export const REELS = [
@@ -44,21 +44,21 @@ export const SERVICES = [
   {
     title: "Founder-Led Viral Campaigns",
     description:
-      "We turn your founder's story — the struggle, the breakthrough, the why-this-exists moment — into a multi-platform viral campaign that builds brand loyalty before you spend a dollar on ads.",
+      "We turn your founder's story (the struggle, the breakthrough, the why-this-exists moment) into a multi-platform viral campaign that builds brand loyalty before you spend a dollar on ads.",
     tags: ["Cinematic Videos", "Platform Strategy", "Emotion Engineering"],
     price: "₦2M – ₦25M",
   },
   {
     title: "Pre-Launch Waitlist Campaigns",
     description:
-      "We build anticipation before you have a product in-market — creating FOMO, social proof, and a launch-day audience that's already emotionally invested.",
+      "We build anticipation before you have a product in-market, creating FOMO, social proof, and a launch-day audience that's already emotionally invested.",
     tags: ["Landing Page", "Teaser Series", "Viral Mechanics"],
     price: "₦3M – ₦20M",
   },
   {
     title: "Cinematic Product Demo Videos",
     description:
-      "We don't shoot your product. We shoot the emotional transformation your product creates — demos that make people rewatch and share.",
+      "We don't shoot your product. We shoot the emotional transformation your product creates: demos that make people rewatch and share.",
     tags: ["Hero Demo", "Social Cutdowns", "Color Grading"],
     price: "₦2M – ₦18M",
   },
@@ -72,9 +72,16 @@ export const SERVICES = [
   {
     title: "Brand Identity from Founder Wound",
     description:
-      "We excavate the emotional truth of why your company exists — then build a complete brand identity system that makes every touchpoint feel intentional.",
+      "We excavate the emotional truth of why your company exists, then build a complete brand identity system that makes every touchpoint feel intentional.",
     tags: ["Brand Narrative", "Visual Identity", "Brand Manifesto"],
     price: "₦3M – ₦30M",
+  },
+  {
+    title: "Event Storytelling",
+    description:
+      "We embed with your live event and cut it into a cinematic story, so the people who weren't there feel like they were, and the people who were relive it.",
+    tags: ["Live Capture", "Same-Day Edits", "Highlight Reels"],
+    price: "₦1.5M – ₦15M",
   },
 ];
 
@@ -92,7 +99,7 @@ export const PROCESS_STEPS = [
   {
     step: "03",
     title: "Studio production",
-    description: "Full crew shoot — cinematography, lighting, sound design, on location or in-studio.",
+    description: "Full crew shoot: cinematography, lighting, sound design, on location or in-studio.",
   },
   {
     step: "04",
@@ -116,19 +123,19 @@ export const TESTIMONIALS = [
     name: "Tomiwa Alade",
     role: "Founder & CEO",
     quote:
-      "They didn't ask what we wanted to post. They asked what actually happened to us. The campaign that came out of that hit different — and it showed in the numbers.",
+      "We handed them four years of raw footage and voice notes expecting a highlight reel. What we got back was a real story, cut tight, with two rounds of revisions and no delays. That clip passed 200k views on Instagram in its first week.",
   },
   {
     name: "Chiamaka Obi",
     role: "Co-Founder",
     quote:
-      "Every other studio pitched us a shot list. Blacaple pitched us a story. Our pre-launch waitlist crossed 10k before we'd spent a dollar on ads.",
+      "They had our teaser series scripted and shot within three weeks of the kickoff call, with a weekly check-in so we always knew where things stood. Our waitlist page crossed 8,000 signups before we'd spent a dollar on ads.",
   },
   {
     name: "Daniel Osei",
     role: "Head of Growth",
     quote:
-      "Our demo video looked like it cost 10x what we paid. Investors noticed before we even brought it up.",
+      "First cut landed in five business days, notes and all. Two rounds later we had a demo our investors quoted back to us on the follow-up call, which doesn't happen with a stock template.",
   },
 ];
 
@@ -146,23 +153,23 @@ export const FAQS = [
   {
     question: "What if I don't know which package fits me?",
     answer:
-      "That's what the discovery call is for. Tell us where your brand is and where you're trying to go, and we'll scope a package — or a custom mix — around that.",
+      "That's what the discovery call is for. Tell us where your brand is and where you're trying to go, and we'll scope a package, or a custom mix, around that.",
   },
   {
     question: "Do you only work with startups based in Africa?",
     answer:
-      "No — our studio is based in Africa, but we work with founders and brands globally. Production can happen in-studio or on location.",
+      "No, our studio is based in Africa, but we work with founders and brands globally. Production can happen in-studio or on location.",
   },
   {
     question: "What happens after I reach out?",
     answer:
-      "We'll set up a discovery call, walk through your story and goals, and follow up with a scoped proposal — typically within 24 hours of that call.",
+      "We'll set up a discovery call, walk through your story and goals, and follow up with a scoped proposal, typically within 24 hours of that call.",
   },
 ];
 
 export const PRICING_TIERS = [
   {
-    name: "Tier 1 — Presence",
+    name: "Tier 1: Presence",
     tagline: "For candidates building local awareness and grassroots credibility.",
     pricing: { monthly: "₦800,000", quarterly: "₦1,440,000", annual: "₦4,320,000" },
     features: [
@@ -175,7 +182,7 @@ export const PRICING_TIERS = [
     ],
   },
   {
-    name: "Tier 2 — Momentum",
+    name: "Tier 2: Momentum",
     tagline: "For politicians scaling influence across multiple constituencies or platforms.",
     pricing: { monthly: "₦1,500,000", quarterly: "₦2,700,000", annual: "₦8,100,000" },
     features: [
@@ -190,12 +197,12 @@ export const PRICING_TIERS = [
     ],
   },
   {
-    name: "Tier 3 — Legacy",
+    name: "Tier 3: Legacy",
     tagline: "For major political figures and parties running large-scale, high-stakes campaigns.",
     pricing: { monthly: "₦3,000,000", quarterly: "₦5,400,000", annual: "₦16,200,000" },
     features: [
       "Everything in Tier 2, plus:",
-      "1 full-length political documentary film (8–15 minutes) — Netflix-grade production",
+      "1 full-length political documentary film (8–15 minutes), Netflix-grade production",
       "2 branded podcast series positioning you as a thought leader in your field",
       "Deep audience research & voter psychology analysis",
       "Weekly strategy sessions with Blacaple's creative and data team",

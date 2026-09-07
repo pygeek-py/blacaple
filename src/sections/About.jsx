@@ -10,7 +10,7 @@ import { aboutVideos } from "../utils/videos";
 export default function About() {
   return (
     <section id="about" className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
           <motion.div
             variants={staggerContainer(0.12)}
@@ -24,7 +24,7 @@ export default function About() {
             />
             <motion.p variants={fadeUp} className="mt-6 max-w-lg text-base text-muted">
               Blacaple is a content studio based in Africa, built on a simple
-              belief. Our work is focused on that feeling — we help brands
+              belief. Our work is focused on that feeling, and we help brands
               speak clearly, look beautiful, and tell stories that stay in the
               mind long after the screen goes dark.
             </motion.p>

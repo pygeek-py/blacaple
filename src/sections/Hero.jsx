@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden pb-20 pt-36 sm:pt-44">
-      <div className="mx-auto grid max-w-6xl gap-14 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div className="mx-auto grid max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] gap-14 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <motion.div
           variants={staggerContainer(0.12)}
           initial="hidden"
@@ -56,7 +56,7 @@ export default function Hero() {
           </motion.div>
 
           <motion.div variants={fadeUp} className="mt-12 text-sm text-bone/70">
-            A content studio based in Africa —{" "}
+            A content studio based in Africa,{" "}
             <span className="font-medium text-bone/90">Est. 2025</span>
           </motion.div>
         </motion.div>

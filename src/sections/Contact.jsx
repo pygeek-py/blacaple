@@ -40,7 +40,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-5xl px-6">
+      <div className="mx-auto max-w-5xl px-6 2xl:max-w-6xl 3xl:max-w-[1400px] 4xl:max-w-[1650px]">
         <motion.div
           variants={staggerContainer(0.1)}
           initial="hidden"
@@ -53,7 +53,7 @@ export default function Contact() {
               <SectionHeading
                 eyebrow="Contact"
                 title="Curiosity sticks."
-                description="Tell us about your brand, your founder story, and what you're building — let's engineer your next move."
+                description="Tell us about your brand, your founder story, and what you're building. Let's engineer your next move."
               />
               <a
                 href="mailto:blacaplestudio@gmail.com"
@@ -104,6 +104,7 @@ export default function Contact() {
                   <option>Cinematic Product Demo</option>
                   <option>Podcast-to-Content Engine</option>
                   <option>Brand Identity</option>
+                  <option>Event Storytelling</option>
                   <option>Other</option>
                 </select>
 
@@ -153,7 +154,7 @@ export default function Contact() {
               {status === "success" && (
                 <p className="flex items-center justify-center gap-2 text-center text-sm font-medium text-emerald-400">
                   <CheckCircle2 size={16} />
-                  Request sent — we'll be in touch within 24 hours.
+                  Request sent. We'll be in touch within 24 hours.
                 </p>
               )}
 

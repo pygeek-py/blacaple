@@ -6,6 +6,7 @@ export default function VideoTile({
   ratio = "aspect-[4/5]",
   rounded = "rounded-lg",
   objectPosition = "object-top",
+  fit = "cover",
   className,
 }) {
   const wrapperRef = useRef(null);
@@ -70,7 +71,11 @@ export default function VideoTile({
           loop
           playsInline
           preload="metadata"
-          className={cn("absolute inset-0 h-full w-full object-cover", objectPosition)}
+          className={cn(
+            "absolute inset-0 h-full w-full",
+            fit === "contain" ? "object-contain" : "object-cover",
+            objectPosition
+          )}
           onLoadedMetadata={(e) => {
             e.currentTarget.currentTime = 0.1;
           }}

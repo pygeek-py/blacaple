@@ -9,14 +9,14 @@ import { portfolioVideos, reelVideos, thumbnailVideos } from "../utils/videos";
 export default function Work() {
   return (
     <section id="work" className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading
             eyebrow="Portfolio"
             title="Selected work"
             description="A sample of the stories we've engineered for founders and brands."
           />
-          <Button href="#" variant="secondary" className="shrink-0">
+          <Button href="/portfolio" variant="secondary" className="shrink-0">
             View full portfolio
           </Button>
         </div>
@@ -44,7 +44,7 @@ export default function Work() {
         </motion.div>
       </div>
 
-      <div className="mx-auto mt-24 max-w-6xl px-6">
+      <div className="mx-auto mt-24 max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <SectionHeading eyebrow="Work" title="Vertical reels" align="left" />
         <motion.div
           variants={staggerContainer(0.08)}
@@ -61,7 +61,7 @@ export default function Work() {
         </motion.div>
       </div>
 
-      <div className="mx-auto mt-24 max-w-6xl px-6">
+      <div className="mx-auto mt-24 max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <SectionHeading eyebrow="Work" title="Behind the scenes" align="left" />
         <motion.div
           variants={staggerContainer(0.06)}
@@ -72,7 +72,12 @@ export default function Work() {
         >
           {THUMBNAILS.map((thumb, i) => (
             <motion.div key={thumb.id} variants={fadeUp} className="w-56 shrink-0 sm:w-64">
-              <VideoTile src={thumbnailVideos[i]} ratio="aspect-video" />
+              <VideoTile
+                src={thumbnailVideos[i]}
+                ratio="aspect-[3/4]"
+                fit="contain"
+                objectPosition="object-center"
+              />
             </motion.div>
           ))}
         </motion.div>

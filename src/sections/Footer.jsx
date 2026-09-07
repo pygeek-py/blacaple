@@ -4,7 +4,7 @@ import { FOOTER_LINKS } from "../utils/content";
 export default function Footer() {
   return (
     <footer className="relative border-t border-bone/10 py-16">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <Logo />
@@ -48,7 +48,7 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-bone/10 pt-8 text-xs text-muted sm:flex-row">
           <p>© {new Date().getFullYear()} Zaza Labs Limited. All Rights Reserved.</p>
-          <p>Est. 2025 — a content studio based in Africa.</p>
+          <p>Est. 2025, a content studio based in Africa.</p>
         </div>
       </div>
     </footer>

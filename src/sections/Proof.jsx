@@ -9,7 +9,7 @@ import { proofVideo } from "../utils/videos";
 export default function Proof() {
   return (
     <section className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl 2xl:max-w-7xl 3xl:max-w-[1600px] 4xl:max-w-[1900px] px-6">
         <SectionHeading eyebrow="Why Blacaple" title="More than just content" />
 
         <motion.div
@@ -43,7 +43,7 @@ export default function Proof() {
           <motion.div variants={fadeUp} className="rounded-[28px] border border-bone/10 bg-bone/[0.02] p-8">
             <VideoTile src={proofVideo} ratio="aspect-square" />
             <p className="mt-4 text-sm text-muted">
-              Full studio production — crew, lighting, and sound design on every shoot.
+              Full studio production: crew, lighting, and sound design on every shoot.
             </p>
           </motion.div>
         </motion.div>
