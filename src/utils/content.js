@@ -52,14 +52,14 @@ export const SERVICES = [
     title: "Pre-Launch Waitlist Campaigns",
     description:
       "We build anticipation before you have a product in-market, creating FOMO, social proof, and a launch-day audience that's already emotionally invested.",
-    tags: ["Landing Page", "Teaser Series", "Viral Mechanics"],
+    tags: ["Teaser Series", "Viral Mechanics"],
     price: "₦3M – ₦20M",
   },
   {
-    title: "Cinematic Product Demo Videos",
+    title: "Cinematic Product",
     description:
       "We don't shoot your product. We shoot the emotional transformation your product creates: demos that make people rewatch and share.",
-    tags: ["Hero Demo", "Social Cutdowns", "Color Grading"],
+    tags: ["Social Cutdowns", "Color Grading"],
     price: "₦2M – ₦18M",
   },
   {
