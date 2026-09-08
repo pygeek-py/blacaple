@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Flame, Volume2, VolumeX } from "lucide-react";
 import Button from "../components/Button";
@@ -7,7 +7,21 @@ import { fadeUp, staggerContainer } from "../hooks/useReveal";
 
 export default function Hero() {
   const videoRef = useRef(null);
-  const [muted, setMuted] = useState(true);
+  const [muted, setMuted] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.muted = false;
+    video.play().catch(() => {
+      // Browsers block unmuted autoplay until the visitor has engaged with
+      // the site, so fall back to a muted autoplay rather than staying paused.
+      video.muted = true;
+      setMuted(true);
+      video.play().catch(() => {});
+    });
+  }, []);
 
   return (
     <section className="relative overflow-hidden pb-20 pt-36 sm:pt-44">
