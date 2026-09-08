@@ -67,7 +67,7 @@ export default function PortfolioPage() {
                 className="group text-left"
               >
                 <div className="relative">
-                  <VideoTile src={item.src} ratio={item.ratio} />
+                  <VideoTile src={item.src} ratio={item.ratio} fit={item.fit} />
                   <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-ink/0 transition-colors group-hover:bg-ink/30">
                     <span className="flex h-11 w-11 scale-90 items-center justify-center rounded-full bg-bone/90 text-ink opacity-0 transition-all group-hover:scale-100 group-hover:opacity-100">
                       <Play size={18} fill="currentColor" />

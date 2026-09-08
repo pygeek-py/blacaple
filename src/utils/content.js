@@ -46,42 +46,42 @@ export const SERVICES = [
     description:
       "We turn your founder's story (the struggle, the breakthrough, the why-this-exists moment) into a multi-platform viral campaign that builds brand loyalty before you spend a dollar on ads.",
     tags: ["Cinematic Videos", "Platform Strategy", "Emotion Engineering"],
-    price: "₦2M – ₦25M",
+    price: "from ₦2M",
   },
   {
     title: "Pre-Launch Waitlist Campaigns",
     description:
       "We build anticipation before you have a product in-market, creating FOMO, social proof, and a launch-day audience that's already emotionally invested.",
     tags: ["Teaser Series", "Viral Mechanics"],
-    price: "₦3M – ₦20M",
+    price: "from ₦3M",
   },
   {
     title: "Cinematic Product",
     description:
       "We don't shoot your product. We shoot the emotional transformation your product creates: demos that make people rewatch and share.",
     tags: ["Social Cutdowns", "Color Grading"],
-    price: "₦2M – ₦18M",
+    price: "from ₦2M",
   },
   {
     title: "Podcast-to-Content Engine",
     description:
       "We produce a broadcast-quality podcast series in our studio, then atomize every episode into 30+ pieces of SEO-optimized, social-native content.",
     tags: ["Studio Sessions", "Content Atomization", "SEO Articles"],
-    price: "₦3M – ₦25M",
+    price: "from ₦3M",
   },
   {
     title: "Brand Identity from Founder Wound",
     description:
       "We excavate the emotional truth of why your company exists, then build a complete brand identity system that makes every touchpoint feel intentional.",
     tags: ["Brand Narrative", "Visual Identity", "Brand Manifesto"],
-    price: "₦3M – ₦30M",
+    price: "from ₦3M",
   },
   {
     title: "Event Storytelling",
     description:
       "We embed with your live event and cut it into a cinematic story, so the people who weren't there feel like they were, and the people who were relive it.",
     tags: ["Live Capture", "Same-Day Edits", "Highlight Reels"],
-    price: "₦1.5M – ₦15M",
+    price: "from ₦1.5M",
   },
 ];
 

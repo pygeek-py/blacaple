@@ -23,8 +23,7 @@ export default function About() {
               title="People don't remember ads. They remember how something made them feel."
             />
             <motion.p variants={fadeUp} className="mt-6 max-w-lg text-base text-muted">
-              Blacaple is a content studio based in Africa, built on a simple
-              belief. Our work is focused on that feeling, and we help brands
+              Our work is focused on that feeling, we help brands
               speak clearly, look beautiful, and tell stories that stay in the
               mind long after the screen goes dark.
             </motion.p>
